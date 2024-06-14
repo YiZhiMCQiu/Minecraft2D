@@ -1,10 +1,9 @@
 package cn.yizhimcqiu.minecraft.client.render;
 
 import cn.yizhimcqiu.minecraft.Minecraft;
+import cn.yizhimcqiu.minecraft.client.MainFrame;
 import cn.yizhimcqiu.minecraft.utils.ThreadUtil;
 import cn.yizhimcqiu.minecraft.utils.system.LocalComputerUtil;
-
-import java.awt.*;
 
 public class RenderThread extends Thread {
     public static final int FPS = LocalComputerUtil.getMaxFPS();

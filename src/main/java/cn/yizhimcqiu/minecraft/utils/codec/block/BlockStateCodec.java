@@ -3,8 +3,8 @@ package cn.yizhimcqiu.minecraft.utils.codec.block;
 import cn.yizhimcqiu.minecraft.Minecraft;
 import cn.yizhimcqiu.minecraft.registries.Registries;
 import cn.yizhimcqiu.minecraft.core.ResourceLocation;
-import cn.yizhimcqiu.minecraft.world.Block;
-import cn.yizhimcqiu.minecraft.world.BlockState;
+import cn.yizhimcqiu.minecraft.world.block.Block;
+import cn.yizhimcqiu.minecraft.world.block.BlockState;
 
 public class BlockStateCodec {
     public static String encode(BlockState state) {

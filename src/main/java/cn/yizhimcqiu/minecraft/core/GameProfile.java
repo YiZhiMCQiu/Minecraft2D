@@ -3,9 +3,9 @@ package cn.yizhimcqiu.minecraft.core;
 public class GameProfile {
     public String name;
     public String windowTitle;
-    public Boolean demo;
+    public boolean demo;
     public long version;
-    public GameProfile(String name, String windowTitle, Boolean demo, long version) {
+    public GameProfile(String name, String windowTitle, boolean demo, long version) {
         this.name = name;
         this.windowTitle = windowTitle;
         this.demo = demo;
